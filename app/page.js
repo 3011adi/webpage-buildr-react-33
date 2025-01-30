@@ -9,7 +9,7 @@ export default function Page1() {
     <div className="flex flex-col  items-center min-h-screen p-3" style={{ backgroundColor: '#ffffff' }}>
      
         <div className="flex flex-col justify-start items-start w-full 
-          p-2 rounded-none min-h-screen m-0   animate-none container-selectable bg-cover"style={{backgroundColor: 'rgb(255, 255, 255)', backgroundImage: 'url(&quot', https: '//images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&amp', outline: 'currentcolor', outlineOffset: '2px'}}><div className="flex flex-row justify-center items-center w-full 
+          p-2 rounded-none min-h-screen m-0   animate-none container-selectable bg-cover"style={{backgroundColor: 'rgb(255, 255, 255)', backgroundImage: 'url(&quot', https: 'url("https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80")', outline: 'currentcolor', outlineOffset: '2px'}}><div className="flex flex-row justify-center items-center w-full 
           p-2 rounded-lg h-auto m-2 bg-gradient-to-br from-white/60 to-white/40 animate-none container-selectable bg-cover"style={{backgroundColor: 'transparent', outline: 'currentcolor', outlineOffset: '2px'}}><nav className="flex flex-row justify-between items-center p-4   rounded-lg animate-none 
                 font-semibold w-full p-0 m-0 text-none"style={{backgroundColor: 'transparent', color: 'rgb(0, 0, 0)', outline: 'currentcolor', outlineOffset: '2px'}}>
   <div className="text-3xl text-none text-start">autumn</div>
