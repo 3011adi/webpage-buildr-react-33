@@ -1,4 +1,3 @@
-
 'use client';
 import { useRouter } from 'next/navigation';
 
@@ -17,7 +16,7 @@ export default function Page1() {
   
   
     <div className="lg:hidden">
-      <button className="text-2xl text-none" onclick="this.nextElementSibling.classList.toggle('hidden')">
+      <button className="text-2xl text-none" onClick={() => this.nextElementSibling.classList.toggle('hidden')}>
         ☰
       </button>
 
