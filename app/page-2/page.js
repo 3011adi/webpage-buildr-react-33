@@ -6,7 +6,7 @@ export default function Page2() {
   const router = useRouter();
   
   return (
-    <div className="flex flex-col  items-center min-h-screen p-3" style={{ backgroundColor: '#ffffff' }}>
+    <div className="flex flex-col  items-center min-h-screen " style={{ backgroundColor: '#ffffff' }}>
      
         <div className="grid lg:grid-cols-2 grid-cols-1 w-full p-2 rounded min-h-[75vh] 
          m-2   animate-none gap-4 place-items-center  container-selectable bg-cover"style={{backgroundColor: 'rgb(249, 211, 224)', outline: 'currentcolor', outlineOffset: '2px'}}>
@@ -53,7 +53,7 @@ export default function Page2() {
       <div className="fixed bottom-4 left-4 flex gap-2">
         
         <button
-          onClick={() => router.push('/page-1')}
+          onClick={() => router.push('/')}
           className="px-4 py-2 bg-emerald-600 text-white rounded-lg hover:bg-emerald-700"
         >
           Previous Page

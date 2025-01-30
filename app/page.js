@@ -1,11 +1,17 @@
 'use client';
 import { useRouter } from 'next/navigation';
+import { useState } from 'react';
 
 export default function Page1() {
   const router = useRouter();
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
   
   return (
-    <div className="flex flex-col  items-center min-h-screen p-3" style={{ backgroundColor: '#ffffff' }}>
+    <div className="flex flex-col  items-center min-h-screen " style={{ backgroundColor: '#ffffff' }}>
      
         <div className="flex flex-col justify-start items-start w-full 
           p-2 rounded-none min-h-screen m-0   animate-none container-selectable bg-cover"style={{backgroundColor: 'rgb(255, 255, 255)', backgroundImage: 'url("https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80")', outline: 'currentcolor', outlineOffset: '2px'}}><div className="flex flex-row justify-center items-center w-full 
@@ -16,11 +22,11 @@ export default function Page1() {
   
   
     <div className="lg:hidden">
-      <button className="text-2xl text-none" onClick={() => this.nextElementSibling.classList.toggle('hidden')}>
+      <button className="text-2xl text-none" onClick={toggleMenu}>
         ☰
       </button>
 
-      <div className="hidden  absolute top-16 right-4 bg-white/10 backdrop-blur-sm rounded-lg p-4 shadow-xl">
+      <div className={`${isMenuOpen ? '' : 'hidden'} absolute top-16 right-4 bg-white/10 backdrop-blur-sm rounded-lg p-4 shadow-xl`}>
         
           <a href="/" className="block py-2 px-4 hover:scale-110 transition-transform text-none">
             Home

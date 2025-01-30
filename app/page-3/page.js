@@ -6,7 +6,7 @@ export default function Page3() {
   const router = useRouter();
   
   return (
-    <div className="flex flex-col  items-center min-h-screen p-3" style={{ backgroundColor: '#ffffff' }}>
+    <div className="flex flex-col  items-center min-h-screen " style={{ backgroundColor: '#ffffff' }}>
      
         <div className="flex flex-col justify-start items-center w-full 
           p-0 rounded-none min-h-screen m-0   animate-none container-selectable bg-cover"style={{backgroundColor: 'rgb(192, 192, 192)', outlineOffset: '2px'}}><br/><p className="text-center text-5xl 
@@ -16,7 +16,7 @@ export default function Page3() {
 <div className="grid lg:grid-cols-2 grid-cols-1 w-[90%] p-2 rounded-full h-auto 
          m-2   animate-none gap-4 place-items-center  container-selectable bg-cover"style={{backgroundColor: 'transparent', outlineOffset: '2px'}}><div className="flex flex-row justify-between items-center w-full 
           p-2 rounded-full h-auto m-0   animate-none container-selectable bg-cover"style={{backgroundColor: 'transparent', outlineOffset: '2px'}}><p className="text-center text-xl 
-          font-sans w-auto p-2 rounded-full h-auto m-0 text-none     animate-none"style={{color: 'rgb(68, 68, 68)', backgroundColor: 'rgb(255, 255, 255)', overflowWrap: 'break-word', wordBreak: 'break-word', maxWidth: '100%', hyphens: 'auto', outline: 'currentcolor', outlineOffset: '2px'}}>&nbsp; Bedrooms&nbsp;</p>
+          font-sans w-auto p-2 rounded-full h-auto m-0 text-none     animate-none"style={{color: 'rgb(68, 68, 68)', backgroundColor: 'rgb(255, 255, 255)', overflowWrap: 'break-word', wordBreak: 'break-word', maxWidth: '100%', hyphens: 'auto', outline: 'currentcolor', outlineOffset: '2px'}}>  Bedroom </p>
 <p className="text-center text-xl 
           font-sans w-auto p-2 rounded-full h-auto m-0 text-none     animate-none"style={{color: 'rgb(68, 68, 68)', backgroundColor: 'rgb(255, 255, 255)', overflowWrap: 'break-word', wordBreak: 'break-word', maxWidth: '100%', hyphens: 'auto', outline: 'currentcolor', outlineOffset: '2px'}}>Living Room</p>
 <p className="text-center text-xl 
